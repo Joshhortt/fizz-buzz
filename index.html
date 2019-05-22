@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fizz Buzz</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.0.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center-block">
+        <h1>Fizz Buzz</h1>
+        <form id="fizzbuzz">
+          <label for="fizzbuzz-input">enter a number :</label>
+          <input id="fizzbuzz-input" type="text">
+          <input id="reverse" type="checkbox" name="options" value="reverse">
+          <label for="reverse">reverse</label>
+          <input id="funny" type="checkbox" name="options" value="funny">
+          <label for="funny">advance</label>
+          <button type="submit">validate</button>
+          <button id ="reset" type="reset">reset</button>
+        </form>
+        <div id="fizzbuzz-result">
+          <p id="fizzbuzz-string" class="lead"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
